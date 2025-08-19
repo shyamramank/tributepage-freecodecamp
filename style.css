@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#title {
+    background-color: #65D2A5;
+}
+
+#tribute-info {
+    background-color: #65D2A5;
+    margin: 0 auto;
+    padding-left: 10px;
+    pading-right: auto;
+}
+
+.text {
+    line-height: 1.6;
+}
+
+h1 {
+font-size: 2.5rem;
+font-weight: 800;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+h2 ul li blockquote p {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+/* Images are inline elements by default. Use display: block property to display them as block */
+    display: block;
+/* use auto margin left and right to center align the image block */
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 2px 5px 5px 5px rgba(0,0,0,0.8); 
+box-shadow: 2px 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 15px;
+}
